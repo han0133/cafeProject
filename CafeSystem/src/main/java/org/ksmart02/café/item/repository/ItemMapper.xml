@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.ksmart02.café.item.repository.ItemMapper">
+	
+	<insert id="insertItem"
+		parameterType="org.ksmart02.café.item.model.Item">
+		INSERT INTO item
+			(item_code
+			, item_name
+			, item_unit
+			, item_price
+			, item_price_set_date
+			, item_price_set_status
+			, item_regit_date
+			, head_item_code
+			, head_staff_id)
+		VALUES 
+			(#{}, '', '', 0, NOW(), 'Y', NOW(), '', '')
+	
+	</insert>
+
+
+</mapper>
