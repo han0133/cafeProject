@@ -1,4 +1,4 @@
-package org.ksmart02.café.item.model;
+package org.ksmart02.cafe.item.model;
 
 public class Item {
 	private String itemCode;
