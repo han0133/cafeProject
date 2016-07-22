@@ -1,4 +1,4 @@
-package com.ksmart.cafesystem;
+package org.ksmart02.cafe;
 
 import java.text.DateFormat;
 import java.util.Date;

@@ -21,7 +21,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
-	<context:component-scan base-package="com.ksmart.cafesystem" />
+	<context:component-scan base-package="org.ksmart02.cafe" />
 	
 	<bean 	id="multipartResolver" 
 			class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
